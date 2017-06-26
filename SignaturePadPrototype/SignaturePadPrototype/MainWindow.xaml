@@ -1,0 +1,14 @@
+﻿<dx:DXWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+        xmlns:dxpdf="http://schemas.devexpress.com/winfx/2008/xaml/pdf" x:Class="SignaturePadPrototype.MainWindow"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <dxpdf:PdfViewerControl Name="Control" HorizontalAlignment="Left" VerticalAlignment="Top" Height="1080" SelectionStarted="PdfViewerControl_OnSelectionStarted" SelectionEnded="Control_OnSelectionEnded" />
+
+
+
+    </Grid>
+</dx:DXWindow>
